@@ -66,8 +66,8 @@ git push origin main
 
 ### 完整示例
 ```bash
-# 修改了 calculator.py 后
-git add calculator.py
+# 修改了 calculator.py 后 (假设文件在 tutorial/04_functions/ 目录下)
+git add tutorial/04_functions/calculator.py
 git commit -m "Add modulo operation"
 git push origin main
 ```
@@ -89,6 +89,6 @@ git push origin main
 
 ## 文件说明
 
-- `calculator.py` - 简单的计算器代码
+- `tutorial/` - 包含所有分阶段学习代码的目录 (如 `calculator.py`)
 - `README.md` - 项目说明文档
 - `.gitignore` - Git 忽略文件配置
